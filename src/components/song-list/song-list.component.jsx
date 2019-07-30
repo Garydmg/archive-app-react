@@ -5,7 +5,6 @@ import styled from 'styled-components'
 
 
 export const SongList = (props) => {
-  console.log(props)
   const SongList = styled.header`
     margin-top: 180px;
     margin-left: 5%;
@@ -22,7 +21,7 @@ export const SongList = (props) => {
             name={ song.name }
             play={ props.handlePlay }
             idx={ idx }
-            isPlayingIdx = { song.idx }
+            isPlayingIdx = { props.isPlayingIdx }
           />
         ))
       }
