@@ -8,7 +8,7 @@
     "react-dom": "^16.8.6",
     "react-h5-audio-player": "^1.2.1",
     "react-hot-loader": "^4.12.10",
-    "react-scripts": "3.0.1",
+    "react-scripts": "5.0.1",
     "styled-components": "^4.3.2"
   },
   "scripts": {
